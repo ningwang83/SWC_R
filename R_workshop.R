@@ -4,6 +4,7 @@
 # Where: Hatcher Library, UM
 
 # Packages Necessary for this analysis
+
 install.packages('RSQLite')
 
 library(RSQLite)
@@ -97,7 +98,7 @@ rm(conn)
 
 surveys$taxa == 'Rodent'
 length(surveys$taxa == 'Rodent')
-dim(surveys)
+dim(surveys) # ?dim
 surveys[surveys$taxa == 'Rodent', 'taxa']
 year1 <- surveys$year >= 1980
 year2 <- surveys$year <= 1990
