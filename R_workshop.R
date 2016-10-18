@@ -5,6 +5,7 @@
 
 # Packages Necessary for this analysis
 
+install.packages('ggplot2')
 install.packages('RSQLite')
 
 library(RSQLite)
