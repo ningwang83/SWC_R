@@ -1,7 +1,9 @@
 # What: Software Carpentry Workshop
 # When: Octorber 18th, 2016
 # Who: Ning Wang
+# Where: Hatcher Library, UM
 
+# Packages Necessary for this analysis
 install.packages('RSQLite')
 
 library(RSQLite)
