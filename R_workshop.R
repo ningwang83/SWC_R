@@ -7,6 +7,7 @@
 
 install.packages('ggplot2')
 install.packages('RSQLite')
+install.packages('dplyr')
 
 library(RSQLite)
 
